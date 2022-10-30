@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="spacerblock">
+    </div>
+
+    <div class="infoblock mx-auto">
+        <div class="heading">
+            Collaborative
+        </div>
+        <div class="heading highlight">
+            AI-augmented
+        </div>
+        <div class="heading">
+            incident response
+        </div>
+        <div class="list">
+            <ul>
+                <li>improve situational awareness</li>
+                <li>stop relying on out-of-date runbooks</li>
+                <li>mitigate faster</li>
+            </ul>
+        </div>
+        <div class="waitlist">
+            {% if email|length > 1 %}
+            <p class="highlight">you've joined the cool list 😎 {{email}}</p>
+            {% else %}
+            <form class="form" method="post">
+                <div class="input-group">
+                    <input type="text" id="inputEmail" class="form-control" placeholder="youremail@address.com" name="email">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-custom rounded-0" type="submit">sign up</button>
+                    </div>
+                </div>
+            </form>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+    <div class="secondary infoblock mx-auto">
+        <div>        
+        <p class="highlight">Multiplayer</p>
+        <p>system debugging and situational awareness
+            for the whole team without the need to stop your flow.
+        </p>
+        </div>
+
+        <div>
+            <p>
+                Learn from previous incidents, get 
+            </p>
+            <p class="highlight">smart suggestions</p>
+            <p>and stay up to date without constantly updating 
+                error-prone runbooks.
+            </p>
+        </div>
+
+        
+        <div>
+        <p class="highlight">
+            Auto-generate incident timelines</p>
+        <p>, get new oncall engineers
+            up to speed faster.
+        </p>
+        </div>
+        
+        <div>
+        <p>
+            Give your engineers the gift of 
+        </p>
+        <p class="highlight">AI-augmented memory</p>
+        <p>
+            and insight 🤖🧠
+        </p>
+        </div>
+    </div>
+
+
+{% endblock %}

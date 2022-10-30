@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="spacerblock">
+    </div>
+
+    <div class="infoblock mx-auto">
+        <div class="header">Join the team</div>
+        <div class="row">
+
+        <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="{{ url_for('static', filename='diamond.jpg') }}" class="card-img-top" alt="A photo of the technology brother in chief">
+            <div class="card-body">
+              <h5 class="card-title">Diamond Bishop, CEO/Founder</h5>
+              <p class="card-text">yes, that's his real name, formerly AI stuff at Meta (PyTorch)/Amazon (Alexa, AWS) /Microsoft (Cortana, XboxOne), looking to make friends with our AI-buddies 
+                and augment everyone else along the way. Usually can find him here: <a href="http://twitter.com/diamondbishop">@diamondbishop</a>.
+              </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              We're looking for early team members looking to live and work on the cutting edge with us.
+              If you are interested:  <div class="highlight">diamondbishop@gmail.com</div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><p class="highlight">Product manager/leader:</p> UX expertise, loves dev tools and services</li>
+              <li class="list-group-item"><p class="highlight">ML Engineer:</p> Applied ML expertise, looking to ship interesting models, expertise in NLP</li>
+              <li class="list-group-item"><p class="highlight">Front-end Engineer:</p> Javascript expertise, ideally multi-player interactions</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}

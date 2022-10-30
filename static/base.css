@@ -1,0 +1,128 @@
+.navbar-brand {
+    color: #00BA34 !important;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+html, body {
+    margin: 0px;
+    height: 100vh;
+}
+.background{
+    background-image: url('/static/hackerboat.png');
+    
+    background-attachment: fixed;
+    background-size: auto;
+    height: 100vh;
+    
+
+
+}
+
+.spacerblock{
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+.infoblock{
+    background-color:rgb(0, 0, 0, 0.8);
+    width: 50%;
+    margin-bottom: 100px;
+    border-radius: 1rem;
+    padding: 50px;
+    min-width: 800px;
+}
+
+div.list {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.list ul {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.list li::before {
+    color:#00BA34;
+    content: "> "
+}
+
+li {
+    list-style-type: "";
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    display: inline;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.highlight {
+    color:rgba(56, 240, 39)
+}
+
+.waitlist{
+    float:right;
+}
+
+.infoblock.secondary div{
+    padding-bottom: 25px;
+}
+
+.btn-outline-custom{
+    color: rgba(56, 240, 39) !important; 
+    border-color: rgba(56, 240, 39) !important;
+  }
+.btn-outline-custom:focus{
+box-shadow: 0 0 0 0.2rem rgba(56, 240, 39) !important;
+-webkit-box-shadow: 0 0 0 0.2rem rgba(56, 240, 39) !important;
+outline: 0;
+}
+  
+.btn-outline-custom:hover,
+.btn-outline-custom:active{
+color: #fff !important;
+    background-color: rgba(56, 240, 39) !important;
+    border-color: rgba(56, 240, 39) !important;
+}
+
+.navbar-nav li {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.navbar li a:hover {
+    color: rgba(56, 240, 39); 
+}
+
+.card-text {
+    color: #9aa39e;
+    font-size: 15px;
+}
+
+.card-title {
+    color: #00BA34;
+    
+}
+
+.card-body {
+    background-color: black !important;
+}
+
+.header {
+    color: #00BA34;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
