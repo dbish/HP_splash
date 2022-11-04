@@ -10,7 +10,8 @@ html, body {
     margin: 0px;
     height: 100vh;
 }
-.background{
+
+body{
     background-image: url('/static/hackerboat.png');
     
     background-attachment: fixed;
@@ -97,32 +98,14 @@ color: #fff !important;
     border-color: rgba(56, 240, 39) !important;
 }
 
-.navbar-nav li {
-    text-align: right;
-    padding-right: 10px;
-}
-
-.navbar li a:hover {
-    color: rgba(56, 240, 39); 
-}
-
-.card-text {
-    color: #9aa39e;
-    font-size: 15px;
-}
-
-.card-title {
-    color: #00BA34;
-    
-}
-
-.card-body {
-    background-color: black !important;
-}
-
 .header {
     color: #00BA34;
     font-size: 40px;
     text-align: center;
     padding-bottom: 20px;
+}
+
+hr {
+    border: 2px solid #00BA34 !important;
+    border-radius: 2px;
 }
